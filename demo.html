@@ -56,7 +56,14 @@ Fish is still desirable for the Fish enabled presence it brings to websites, the
 Installation is simple and requires no prior technical know-how of Fish technology!
 Simply unzip the "fishyjs" folder in the same directory as the page that you would like to run Fish on.
 <br>
-Once installed to your server, make a call to, in the body tag...
+Once installed to your server, add the following code to your page...
+<br><br>
+Under the <em>head</em> tag, add:
+<br><br>
+	<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;fishyjs/fishy.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+	</pre></div>	
+<br>
+Then make a call to the following in the <em>body</em> tag...
 <br><br>
 <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;body</span> <span style="color: #0000CC">onload=</span><span style="background-color: #fff0f0">&quot;fishlet_init()&quot;</span><span style="color: #007700">&gt;</span>
 </pre></div>
