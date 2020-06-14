@@ -377,7 +377,7 @@ function fish_singing(){
 	}
 	
 	//keep blowing bubbles & play sound...
-	if(num_particleCount > 0 && Math.random()*100 > 90){
+	if(num_particleCount > 0 && Math.random()*100 > 80){
 		
 		makeEmoji(arr_img_emoji_sing);
 		playSound(randArr(arr_snd_singing));
@@ -422,7 +422,7 @@ function fish_happy(){
 	}
 	
 	//keep blowing bubbles & play sound...
-	if(num_particleCount > 0 && Math.random()*100 > 90){
+	if(num_particleCount > 0 && Math.random()*100 > 80){
 		
 		makeEmoji(arr_img_emoji_happy);
 		playSound(randArr(arr_snd_squeak));
