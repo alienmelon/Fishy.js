@@ -4,6 +4,7 @@
 ----
 
 [Click here for a live demo](http://mackerelmediafish.com/getfish/)
+*(Note: Once you visit the website, click on ENABLE FISH at the bottom left of the page.)*
 
 ----
 
