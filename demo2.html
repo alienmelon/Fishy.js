@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FISHY.JS - A MODERN OPEN SOURCE SOLUTION FOR RUNNING FISH ON YOUR WEBSITE</title>
+
+<style>
+
+	body{
+		background-color: white;
+		color: grey;
+	}
+	
+	div{
+		width: auto;
+	}
+	
+</style>
+
+<script src="fishyjs/fishy.js"></script>
+
+</head>
+
+<body onload="fishlet_init()">
+	<!-- test content !-->
+<center><img src="fishylogo_sml.png" alt="fishy.js"></center>
+<hr>
+<center><h2>A modern open source port of Fish for websites and beyond!
+	<br><br>
+	<a href="https://github.com/alienmelon/Fishy.js" target="_blank">Click here to download Fishy.js from Github.</a>
+	</h2></center>
+<hr>
+<br>
+<center><strong><em>
+	This page is a live demo.
+	<br>
+	To run Fish click on the CLICK HERE TO ENABLE FISH button at the bottom left of the page.
+</em>
+</strong>
+</center>
+<br><br>
+Thanks to the efforts of internet archeologists who have salvaged what remains of <em>THE</em> Fish (last seen on <a href="http://mackerelmediafish.com/" target="_blank">Mackerelmediafish.com</a>), the open source community has assembled this port of the MackerelmediaFish player.<br>
+This is an effort to preserve Fish's internet legacy by giving it a place on the modern web.
+<br><br>
+Fishy.js is easy to install, and may reside on any domain!
+<br><br>
+Fish is still desirable for the Fish enabled presence it brings to websites, therefore market demand necessitated a javascript port of Fish. The open source community behind this initiative understands the controversial nature of this port, and concerns have been met with the following features...
+<br>
+<ul>
+	<li>Fishy.js lets you run Fish on your website easily and without the need of third party plugins.</li>
+	<li>Fishy.js is built for the modern web and works on mobile as well as other devices.</li>
+	<li>Users can optionally choose to enable Fish, or Fish can be set to run automatically.</li>
+</ul>
+<hr>
+<br>
+Installation is simple and requires no prior technical know-how of Fish technology!
+Simply unzip the "fishyjs" folder in the same directory as the page that you would like to run Fish on.
+<br>
+Once installed to your server, add the following code to your page...
+<br><br>
+Under the <em>head</em> tag, add:
+<br><br>
+	<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;fishyjs/fishy.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+	</pre></div>	
+<br>
+Then make a call to the following in the <em>body</em> tag...
+<br><br>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;body</span> <span style="color: #0000CC">onload=</span><span style="background-color: #fff0f0">&quot;fishlet_init()&quot;</span><span style="color: #007700">&gt;</span>
+</pre></div>
+<br>
+This will automatically run Fish on page load.
+<br><br>
+In some usability cases it is recommended to let users opt in if they want to enable Fish or not. If you wish to use Fish with the "click to enable" feature (where autorun is not desired) make a call to the following in the body tag...
+<br><br>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;body</span> <span style="color: #0000CC">onload=</span><span style="background-color: #fff0f0">&quot;fishlet_bootup(&#39;CLICK HERE TO ENABLE FISH&#39;)&quot;</span><span style="color: #007700">&gt;</span>
+</pre></div>
+<br>
+This will place a button in the bottom left of your page. Users can optionally choose to enable Fish by clicking on the button.
+<br>
+Note: You can customize your Fish button's message by passing a custom string in the function call.
+<br><br>
+Once Fish is running, users can disable Fish anytime by clicking on the DISABLE FISH button in the bottom left of the page.
+<br>
+<hr>
+<br>
+<address>Further requests for technical support should be forwarded to <a href="http://mackerelmediafish.com/" target="_blank">mackerelmediafish.com</a></address>
+<br><br><br>
+</body>
+</html>
